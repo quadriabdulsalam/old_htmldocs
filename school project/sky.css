@@ -1,0 +1,91 @@
+body {
+margin:0;
+}
+ul {
+     background-color: f1f1f1;
+     padding:0;
+     list-style-type:none;
+     position: fixed;
+     margin:0;
+     height:100%;
+     overflow: auto;
+     width:22%;
+    }
+li a{
+      display:block;
+      padding:8px 0 8px 16px;
+      color: dimgray;
+      background-color: silver;
+      }
+li a.active{
+      background-color: slategray;
+      color: f1f1f1;
+      font-size:10px;
+}
+li a:hover:not(.active){
+         color: none;
+         background-color: aliceblue;
+         font-family: courier;
+}
+
+
+ h1{
+    font-size:30px;
+    background-color: silver;
+    padding:0px;
+    margin-left:22%;
+    height:35
+    }
+selec{
+       border:3px solid grey;
+       width:30px;
+       height:60px;
+       color:black;
+       font-size:35px
+       }
+#at{
+        padding:20px;
+        margin:10px;
+        width:30%;
+        background-color: black;
+        color: white;
+        border:2px solid silver;      
+        }   
+        #design {
+            border:3px solid slategray;
+            font-size:18px;
+            width:100%;
+             }
+    p{
+      font-size:20px;
+           }
+    #desn{
+         border:3px solid slategray;
+         font-size:20px;
+    }    
+    #dig{
+        color:green;
+        width:100%;
+        border:5px solid slategray; 
+        }
+
+#dog{
+        color:green;
+       
+        border:5px solid slategray; 
+        }
+        ftm{
+            font-size:10px;
+            color:red;
+             }
+            
+          #ram{
+                 color:green;
+                 width:100%;
+                 border:10px solid slategray; 
+                 }
+                 #view{
+                    color:green;
+                    width:100%;
+                    border:10px solid silver; 
+                    } 

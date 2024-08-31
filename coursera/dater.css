@@ -1,0 +1,70 @@
+body{
+    background-image:url("Screenshot_20210716-221421.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#year{
+    width:21.7%;
+    height: 15%;
+    background-color: transparent;
+    border: 2px solid rgb(105, 104, 104);
+    font-size: 55px;
+    color: white;
+    margin: 100px;
+}
+#month{
+    width:21.7%;
+    height: 15%;
+    background-color: transparent;
+    border: 2px solid rgb(105, 104, 104);
+    font-size: 55px;
+    color:white;
+    margin: 100px;
+}
+#day{
+    width:21.7%;
+    height: 15%;
+    background-color: transparent;
+    border: 2px solid rgb(105, 104, 104);
+    font-size: 55px;
+    color: white;
+    margin: 100px;
+}
+.mopt{
+background-color: red;
+color:green;
+}
+option{
+    background-color: black;
+}
+option:hover{
+    background-color: yellow;
+}
+#enter{
+    width:21.7%;
+    height: 15%;
+    background-color: transparent;
+    border: 8px solid rgb(105, 104, 104);
+    font-size: 55px;
+    color: white;
+    margin: -50px;
+    background-color: rgb(15, 4, 4);
+    background-blend-mode:overlay
+}
+ h1{
+     height: 50%;
+    color: white;
+    font-size: 100px;
+    border: 1px solid rgb(243, 243, 235);
+    border-width: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,327 @@
+#input{
+    width:60%;
+    height: 120px;
+    background-color: transparent;
+    border: 2px solid rgb(105, 104, 104);
+    font-size: 55px;
+    color: white;
+
+}
+#inp{
+    width:10%;
+    height: 120px;
+    background-color: transparent;
+    border:none;
+    font-size: 55px;
+    color: white;
+
+}
+body{
+    background-image:url("Screenshot_20210716-221421.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+}
+p{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+<a href="coursera.html"><h1>AFRICA ZOO</h1></a>
+#583F2D;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    font-size: 16px;
+    color: aqua;
+    background-color:white;
+    border:0;
+}
+.navbar-header{
+  padding-left:-400px;
+}
+#header-nav{
+    background-color:#583F2D;
+    border: 0;
+    border-radius: 0;
+    padding-left:-700px;
+}
+h1{
+    font-size: 25px;
+    color: white;
+}
+  
+.navbar-brand h1{
+    color: white;
+    font-size: 1.5cm;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 2px 5px 2px rgb(0, 0, 0);
+}
+.navbar-brand p{
+    color:brown;
+    font-size: 0.5cm;
+    margin-top: -10px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration:none;
+}
+#nav-list{
+  margin-top: 10px
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover{
+   background:none;
+}
+#nav-list a span {
+  height: 20px;
+  width: 20px;
+}
+#phone{
+  margin-top: 5px;
+}
+#phone a {
+  color: blue;
+  text-align: right;
+  padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -30px
+}
+#log{
+  background-color: white;
+  width: 100px;
+  height:150px;
+  margin: 10px 10px 5px -200px;
+  border: 2px solid black;
+}
+#menu-tile, #special-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid red;
+  overflow: hidden;
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px;
+}
+
+#menu-tile{
+  background: url('../css/images/MOVING.PNG');
+  background-position: center;
+}
+#special-tile{
+  background: url('../css/images/lion.jpg');
+}
+#menu-tile span, #special-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: blue;
+  opacity: .9;
+}
+
+
+/***large screen*/
+@media(min-width: 1400px) and (max-width:2000px){
+   .jumbotron {
+    background:url("../css/images/my.png")no-repeat;
+    height:675px;
+    width: 100%;
+    border: 2px solid green;
+    margin-right: -70px;
+    margin-left:-70px;
+  }
+  
+ #log{
+     background-color: white;
+     width: 120px;
+     height:120px;
+     border:2px solid black;
+    
+ }
+}
+/***************medium screen*/
+@media(min-width: 992px) and (max-width: 1199px){
+  #log{
+    background-color: white;
+    width: 100px;
+    height:100px;
+    border:2px solid black;
+    margin: 0 0 0 1;
+}
+.jumbotron {
+  background:url("../css/images/my.png")no-repeat;
+  height:556px;
+  border: 2px solid green;
+}
+
+
+
+}
+/***************small screen*/
+@media(min-width: 768px) and (max-width: 991px){
+  .jumbotron {
+    background:url("../css/images/my.png")no-repeat;
+    height:456px;
+    border: 2px solid green;
+  }
+  
+
+}
+/**************extra small screen*/
+@media (max-width: 767px){
+  .navbar-brand{
+    padding: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1{
+    padding-top:-15px;
+    font-size: 9vw;
+  }
+  .navbar-brand p {
+    font-size: .6m;
+    margin-top: -7px;
+  }
+
+
+
+#collapsable-nav a{
+font-size:1.2em ;
+}
+#collapsable-nav span{
+  font-size:1em;
+  margin-right: 5px;
+  }
+  
+  #collapsable-nav a :hover, #collapsable-nav a :focus{
+    font-size:2.4em ; 
+  }
+  /* #collapsable-nav a :hover,  #collapsable-nav a :focus{
+    font-size:2.4em ; 
+    } */
+    #collapsable-nav span :hover,  #collapsable-nav span :focus{
+      font-size:2em;
+      margin-right:10px;
+      }
+      #call-btn > a{
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid brown;
+        background-color: #583F2D;
+        color: yellow;
+      }
+      #xs-deliver{
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      #menu-tile, #special-tile{
+        width: 350px;
+        margin: 0 auto 15px;
+      }
+      
+    }
+    @media (max-width:479px)
+    {
+     .navbar-brand h1{
+       padding-top: 5px;
+       font-size: 6vw;
+     } 
+     #menu-tile, #special-tile{
+      width: 270px;
+      margin: 0 auto 15px;
+    }
+    }
+    
+    .container .jumbotron {
+     padding: 0;
+     margin-top: 0px;
+     border: 2px solid green;
+    }
+  .panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top:0;
+  }
+  .panel-footer div.row{
+    margin-bottom: 35px;
+  }
+  #hours, #address{
+    line-height: 2;
+  }
+  #hours > span, #address > span{
+    font-size: 1.3em;
+  }
+  #address p{
+    color: #557c3e;
+    font-size: .8em;
+    line-height:1.8;
+  } 
+  #testimonials {
+    font-size: italic;
+  }
+  #testimonials p:nth-child(2) {
+    
+  }
+
